@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE513AB1BF58EA500C44AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE513AA1BF58EA500C44AC9 /* main.m */; };
+		EEE513AE1BF58EA500C44AC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE513AD1BF58EA500C44AC9 /* AppDelegate.m */; };
+		EEE513B01BF58EA500C44AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE513AF1BF58EA500C44AC9 /* Assets.xcassets */; };
+		EEE513B31BF58EA500C44AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE513B11BF58EA500C44AC9 /* LaunchScreen.storyboard */; };
+		EEE513BE1BF58EA500C44AC9 /* LPAnimationCurveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE513BD1BF58EA500C44AC9 /* LPAnimationCurveTests.m */; };
+		EEE513C91BF58EA500C44AC9 /* LPAnimationCurveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE513C81BF58EA500C44AC9 /* LPAnimationCurveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE513BA1BF58EA500C44AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE5139E1BF58EA500C44AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE513A51BF58EA500C44AC9;
+			remoteInfo = LPAnimationCurve;
+		};
+		EEE513C51BF58EA500C44AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE5139E1BF58EA500C44AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE513A51BF58EA500C44AC9;
+			remoteInfo = LPAnimationCurve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE513A61BF58EA500C44AC9 /* LPAnimationCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAnimationCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE513AA1BF58EA500C44AC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEE513AC1BF58EA500C44AC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE513AD1BF58EA500C44AC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEE513AF1BF58EA500C44AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE513B21BF58EA500C44AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE513B41BF58EA500C44AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE513B91BF58EA500C44AC9 /* LPAnimationCurveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPAnimationCurveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE513BD1BF58EA500C44AC9 /* LPAnimationCurveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPAnimationCurveTests.m; sourceTree = "<group>"; };
+		EEE513BF1BF58EA500C44AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE513C41BF58EA500C44AC9 /* LPAnimationCurveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPAnimationCurveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE513C81BF58EA500C44AC9 /* LPAnimationCurveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPAnimationCurveUITests.m; sourceTree = "<group>"; };
+		EEE513CA1BF58EA500C44AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE513A31BF58EA500C44AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513B61BF58EA500C44AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513C11BF58EA500C44AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE5139D1BF58EA500C44AC9 = {
+			isa = PBXGroup;
+			children = (
+				EEE513A81BF58EA500C44AC9 /* LPAnimationCurve */,
+				EEE513BC1BF58EA500C44AC9 /* LPAnimationCurveTests */,
+				EEE513C71BF58EA500C44AC9 /* LPAnimationCurveUITests */,
+				EEE513A71BF58EA500C44AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE513A71BF58EA500C44AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE513A61BF58EA500C44AC9 /* LPAnimationCurve.app */,
+				EEE513B91BF58EA500C44AC9 /* LPAnimationCurveTests.xctest */,
+				EEE513C41BF58EA500C44AC9 /* LPAnimationCurveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE513A81BF58EA500C44AC9 /* LPAnimationCurve */ = {
+			isa = PBXGroup;
+			children = (
+				EEE513AC1BF58EA500C44AC9 /* AppDelegate.h */,
+				EEE513AD1BF58EA500C44AC9 /* AppDelegate.m */,
+				EEE513AF1BF58EA500C44AC9 /* Assets.xcassets */,
+				EEE513B11BF58EA500C44AC9 /* LaunchScreen.storyboard */,
+				EEE513B41BF58EA500C44AC9 /* Info.plist */,
+				EEE513A91BF58EA500C44AC9 /* Supporting Files */,
+			);
+			path = LPAnimationCurve;
+			sourceTree = "<group>";
+		};
+		EEE513A91BF58EA500C44AC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE513AA1BF58EA500C44AC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEE513BC1BF58EA500C44AC9 /* LPAnimationCurveTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE513BD1BF58EA500C44AC9 /* LPAnimationCurveTests.m */,
+				EEE513BF1BF58EA500C44AC9 /* Info.plist */,
+			);
+			path = LPAnimationCurveTests;
+			sourceTree = "<group>";
+		};
+		EEE513C71BF58EA500C44AC9 /* LPAnimationCurveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE513C81BF58EA500C44AC9 /* LPAnimationCurveUITests.m */,
+				EEE513CA1BF58EA500C44AC9 /* Info.plist */,
+			);
+			path = LPAnimationCurveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE513A51BF58EA500C44AC9 /* LPAnimationCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE513CD1BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurve" */;
+			buildPhases = (
+				EEE513A21BF58EA500C44AC9 /* Sources */,
+				EEE513A31BF58EA500C44AC9 /* Frameworks */,
+				EEE513A41BF58EA500C44AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPAnimationCurve;
+			productName = LPAnimationCurve;
+			productReference = EEE513A61BF58EA500C44AC9 /* LPAnimationCurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE513B81BF58EA500C44AC9 /* LPAnimationCurveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE513D01BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurveTests" */;
+			buildPhases = (
+				EEE513B51BF58EA500C44AC9 /* Sources */,
+				EEE513B61BF58EA500C44AC9 /* Frameworks */,
+				EEE513B71BF58EA500C44AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE513BB1BF58EA500C44AC9 /* PBXTargetDependency */,
+			);
+			name = LPAnimationCurveTests;
+			productName = LPAnimationCurveTests;
+			productReference = EEE513B91BF58EA500C44AC9 /* LPAnimationCurveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE513C31BF58EA500C44AC9 /* LPAnimationCurveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE513D31BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurveUITests" */;
+			buildPhases = (
+				EEE513C01BF58EA500C44AC9 /* Sources */,
+				EEE513C11BF58EA500C44AC9 /* Frameworks */,
+				EEE513C21BF58EA500C44AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE513C61BF58EA500C44AC9 /* PBXTargetDependency */,
+			);
+			name = LPAnimationCurveUITests;
+			productName = LPAnimationCurveUITests;
+			productReference = EEE513C41BF58EA500C44AC9 /* LPAnimationCurveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE5139E1BF58EA500C44AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QFWang;
+				TargetAttributes = {
+					EEE513A51BF58EA500C44AC9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EEE513B81BF58EA500C44AC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EEE513A51BF58EA500C44AC9;
+					};
+					EEE513C31BF58EA500C44AC9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EEE513A51BF58EA500C44AC9;
+					};
+				};
+			};
+			buildConfigurationList = EEE513A11BF58EA500C44AC9 /* Build configuration list for PBXProject "LPAnimationCurve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE5139D1BF58EA500C44AC9;
+			productRefGroup = EEE513A71BF58EA500C44AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE513A51BF58EA500C44AC9 /* LPAnimationCurve */,
+				EEE513B81BF58EA500C44AC9 /* LPAnimationCurveTests */,
+				EEE513C31BF58EA500C44AC9 /* LPAnimationCurveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE513A41BF58EA500C44AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE513B01BF58EA500C44AC9 /* Assets.xcassets in Resources */,
+				EEE513B31BF58EA500C44AC9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513B71BF58EA500C44AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513C21BF58EA500C44AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE513A21BF58EA500C44AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE513AE1BF58EA500C44AC9 /* AppDelegate.m in Sources */,
+				EEE513AB1BF58EA500C44AC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513B51BF58EA500C44AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE513BE1BF58EA500C44AC9 /* LPAnimationCurveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE513C01BF58EA500C44AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE513C91BF58EA500C44AC9 /* LPAnimationCurveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE513BB1BF58EA500C44AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE513A51BF58EA500C44AC9 /* LPAnimationCurve */;
+			targetProxy = EEE513BA1BF58EA500C44AC9 /* PBXContainerItemProxy */;
+		};
+		EEE513C61BF58EA500C44AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE513A51BF58EA500C44AC9 /* LPAnimationCurve */;
+			targetProxy = EEE513C51BF58EA500C44AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE513B11BF58EA500C44AC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE513B21BF58EA500C44AC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE513CB1BF58EA500C44AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE513CC1BF58EA500C44AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE513CE1BF58EA500C44AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPAnimationCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE513CF1BF58EA500C44AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPAnimationCurve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEE513D11BF58EA500C44AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPAnimationCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPAnimationCurve.app/LPAnimationCurve";
+			};
+			name = Debug;
+		};
+		EEE513D21BF58EA500C44AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LPAnimationCurveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPAnimationCurve.app/LPAnimationCurve";
+			};
+			name = Release;
+		};
+		EEE513D41BF58EA500C44AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPAnimationCurveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPAnimationCurve;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEE513D51BF58EA500C44AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LPAnimationCurveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QF.LPAnimationCurveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LPAnimationCurve;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE513A11BF58EA500C44AC9 /* Build configuration list for PBXProject "LPAnimationCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE513CB1BF58EA500C44AC9 /* Debug */,
+				EEE513CC1BF58EA500C44AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE513CD1BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE513CE1BF58EA500C44AC9 /* Debug */,
+				EEE513CF1BF58EA500C44AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEE513D01BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE513D11BF58EA500C44AC9 /* Debug */,
+				EEE513D21BF58EA500C44AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEE513D31BF58EA500C44AC9 /* Build configuration list for PBXNativeTarget "LPAnimationCurveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE513D41BF58EA500C44AC9 /* Debug */,
+				EEE513D51BF58EA500C44AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE5139E1BF58EA500C44AC9 /* Project object */;
+}

@@ -1,4 +1,6 @@
-### LPAnimationCurve
+### 思路传送门
+* [个人简书](http://www.jianshu.com/p/8d2eff1dc173 "悬停显示")
+
 * iOS重绘线条动画
 
 1. 实现动画主要文件
@@ -78,7 +80,4 @@
             
         });
     }];
-    ```
-    
-### 思路传送门  
-* [个人简书](http://www.jianshu.com/p/8d2eff1dc173 "悬停显示")
+  ```

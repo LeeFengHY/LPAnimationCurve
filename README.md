@@ -12,9 +12,12 @@
 ```
 
 * CurveView  -继承UIView <br/>
-`@property (nonatomic, assign) CGFloat progress;`
+```objc
+@property (nonatomic, assign) CGFloat progress;
 
-```java
+```
+
+```objc
 /**
  *  在progress属性的 setter 方法里，我们让 layer 去实时地重绘
  *
@@ -25,13 +28,15 @@
     self.curveLayer.progress = progress;
     [self.curveLayer setNeedsDisplay];
 }
-    
+```
+
 1. 结合上下拉刷新利用scrollView的KVO机制(contentOffset), 计算progress滑动进度实现动画
 
 2. 动画相关属性-CABasicAnimation
 
 `-旋转:CGAffineTransformMakeRotation(M_PI * (diff*2/180)); //progress0~0.5的时候实时改变旋转角度`
 
+```objc
 /**
  *  旋转动画
  *

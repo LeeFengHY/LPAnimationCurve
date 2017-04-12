@@ -80,6 +80,5 @@
     }];
     ```
     
-   ### 思路传送门
-   
-   * [个人简书](http://www.jianshu.com/p/8d2eff1dc173 "悬停显示")
+### 思路传送门  
+* [个人简书](http://www.jianshu.com/p/8d2eff1dc173 "悬停显示")

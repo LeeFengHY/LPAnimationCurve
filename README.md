@@ -23,6 +23,7 @@ iOS重绘线条动画
 }
 
 1. 结合上下拉刷新利用scrollView的KVO机制(contentOffset), 计算progress滑动进度实现动画
+
 2. 动画相关属性-CABasicAnimation
 -旋转:CGAffineTransformMakeRotation(M_PI * (diff*2/180)); //progress0~0.5的时候实时改变旋转角度
 /**
@@ -78,4 +79,5 @@ iOS重绘线条动画
     }];
     ```
    ### 思路传送门
-   [!简书](http://www.jianshu.com/p/8d2eff1dc173)
+   
+   [个人简书](http://www.jianshu.com/p/8d2eff1dc173)

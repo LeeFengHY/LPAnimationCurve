@@ -14,7 +14,7 @@
 * CurveView  -继承UIView <br/>
 `@property (nonatomic, assign) CGFloat progress;`
 
-    
+```java
 /**
  *  在progress属性的 setter 方法里，我们让 layer 去实时地重绘
  *

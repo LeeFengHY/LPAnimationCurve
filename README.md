@@ -1,6 +1,7 @@
-# LPAnimationCurve
-iOS重绘线条动画
-1.实现动画主要文件
+### LPAnimationCurve
+* iOS重绘线条动画
+
+1. 实现动画主要文件
 * CurveLayer -继承CALayer
 ```
 @property (nonatomic, assign) CGFloat progress; //滑动进度
@@ -9,8 +10,8 @@ iOS重绘线条动画
 
 * CurveView  -继承UIView <br/>
 `@property (nonatomic, assign) CGFloat progress;`
-```objc
 
+```objc
 /**
  *  在progress属性的 setter 方法里，我们让 layer 去实时地重绘
  *

@@ -3,9 +3,10 @@
 
 * iOS重绘线条动画
 
-1. 实现动画主要文件
+* 实现动画主要文件
+
 * CurveLayer -继承CALayer
-```
+```objc
 @property (nonatomic, assign) CGFloat progress; //滑动进度
 - (void)drawInContext:(CGContextRef)ctx;        //内部实现方法
 ```
@@ -80,4 +81,3 @@
             
         });
     }];
-  ```

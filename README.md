@@ -30,9 +30,9 @@
 }
 ```
 
-1. 结合上下拉刷新利用scrollView的KVO机制(contentOffset), 计算progress滑动进度实现动画
+* 结合上下拉刷新利用scrollView的KVO机制(contentOffset), 计算progress滑动进度实现动画
 
-2. 动画相关属性-CABasicAnimation
+* 动画相关属性-CABasicAnimation
 
 `-旋转:CGAffineTransformMakeRotation(M_PI * (diff*2/180)); //progress0~0.5的时候实时改变旋转角度`
 
@@ -57,8 +57,9 @@
     [rotateView.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
     
 }
-3. viewController里面操作
-
+```
+* viewController里面操作
+```objc
    LPPullToCurvcHeader *headerView = [[LPPullToCurvcHeader alloc] initWithAssociatedScrollView:self.tableView    withNavigationBar:YES];
     
     __weak LPPullToCurvcHeader *weakHeaderView = headerView;
